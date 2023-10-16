@@ -5,5 +5,7 @@ const CheckDNAStrand=(dna)=>{
          'C': 'G',
          'G': 'C'
      }
-     return dna.split('').map(element =>complements[element]).join('')
+     return dna.split('')
+     .map(element =>complements[element])
+     .join('')
  }
