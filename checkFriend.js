@@ -9,6 +9,6 @@
 // friend ["Ryan", "Kieran", "Mark"] `shouldBe` ["Ryan", "Mark"]
 
 
-const  friend = (friends)=>{
-    return friends.filter(friendName =>friendName.length ===4)
+const  CheckYourFriend = (ListOFriends)=>{
+    return ListOFriends.filter(friendName =>friendName.length ===4)
   }
