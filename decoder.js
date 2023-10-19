@@ -13,7 +13,6 @@ function solution(roman) {
 
  for (let i = 0; i < romanArr.length; i++){
 
-   // Check if the current roman numeral is less than the next.
    if (romanNumeralsMapping[romanArr[i]] < romanNumeralsMapping[romanArr[i+1]]){
      number = number - romanNumeralsMapping[romanArr[i]]
    }else{
